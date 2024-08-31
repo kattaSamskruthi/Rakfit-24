@@ -139,7 +139,7 @@ const LookPage = () => {
                     </div>
                 </div>
                 <div className='grid__warpper'>
-                    <LookGrid posts={posts} userId={userId} photoUrls={feed} savedLooks={saved} breakpoints={breakpoints} />
+                    <LookGrid posts={posts} userId={userId} photoUrls={feed}  breakpoints={breakpoints} />
                 </div>
             </div>
         </div>

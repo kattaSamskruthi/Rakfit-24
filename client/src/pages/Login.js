@@ -37,8 +37,8 @@ const LoginFormLayout = () => {
         {sessionError && <p className="form__error">{sessionError}</p>}
         <button type="submit" className="form__btn form__btn--submit">Log In</button>
       </form>
-      <Link to="/signup">New to Myntra? Sign up</Link>
-      {loading && <p style={{ fontSize: "10px", color: "blue", margin: "10px" }}>Please wait loading...</p>}
+      <Link to="/signup">New to RakFit? Sign up</Link>
+      {loading && <p style={{ fontSize: "10px", color: "blue", margin: "10px" }}>Please wait...</p>}
     </>
   );
 };

@@ -28,8 +28,8 @@
 }
 
 .logo{
-  width: 40px;
-  height: 40px;
+  width: 200px;
+  height: 200px;
 }
 
 .form__body {
@@ -125,7 +125,7 @@
 }
 
 .form__btn--submit {
-  background-color: #fb1d8c;
+  background-color: #e76a6a;
 }
 
 .form__error {

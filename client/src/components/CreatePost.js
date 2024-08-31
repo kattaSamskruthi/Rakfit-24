@@ -8,7 +8,7 @@ import './CreatePost.css';
 const CreatePost = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const user = useSelector((state) => state.session.user); // Get the user from the Redux store
+  const user = useSelector((state) => state.session.user);
   const [caption, setCaption] = useState('');
   const [productLink, setProductLink] = useState('');
   const [trendTags, setTrendTags] = useState(['']);

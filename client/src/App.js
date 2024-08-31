@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import Signup from "./pages/Signup";
 import Search from "./pages/Search";
-import Stores from "./pages/Stores"; 
+// import Stores from "./pages/Stores"; 
 import Shop from "./pages/Shop";
 import LookPage from "./pages/LookPage";
 import { RequireAuth, NotRequireAuth } from "./routes/routes";
@@ -55,14 +55,14 @@ const App = () => {
             </RequireAuth>
           }
         />
-        <Route
+        {/* <Route
           path="/stores" 
           element={
             <RequireAuth>
               <Stores />
             </RequireAuth>
           }
-        />
+        /> */}
          <Route
           path="/shop" 
           element={

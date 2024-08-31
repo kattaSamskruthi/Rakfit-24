@@ -29,7 +29,7 @@ const FormLayout = () => {
         <div className="form__logo">
           <img className="logo" src={Logo} alt="MyntraLogo" />
         </div>
-        <h1>Welcome to Myntra</h1>
+        <h1>Welcome to RakFit</h1>
         
       </div>
       <div className="form__body">

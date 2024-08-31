@@ -6,13 +6,14 @@
   align-items: center;
 }
 .logo{
-  width: 50px;
+  width: 100px;
   height: auto;
   margin: 20px 10px;
 }
 .nav-bar__icon .MuiSvgIcon-root {
   font-size: 40px;
   padding: 8px;
+  color: #e76a6a;
 }
 
 .nav-bar__icon .MuiSvgIcon-root:hover {
@@ -21,9 +22,9 @@
   cursor: pointer;
 }
 
-.nav-bar__icon--red .MuiSvgIcon-root {
+/* .nav-bar__icon--red .MuiSvgIcon-root {
   color: var(--red);
-}
+} */
 
 .nav-bar__icon--gray .MuiSvgIcon-root {
   color: var(--gray);
@@ -40,7 +41,7 @@
   justify-content: center;
   color: #ffffff;
   align-items: center;
-  background-color:#FF8DA7 ;
+  background-color:#e76a6a ;
 }
 .nav-bar__link {
   height: 36px;
@@ -52,7 +53,7 @@
   font-size: 16px;
   display: flex;
   justify-content: center;
-  color: #000000;
+  color: #e76a6a;
   align-items: center;
   background-color:#ffffff ;
 }

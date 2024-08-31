@@ -55,7 +55,7 @@ const NavBar = ({ query }) => {
       <div className="nav-bar__link">
         <Tooltip title="Ask" arrow>
           <a href="https://rag-model-bg7xdf3pehdhxyqokfrufn.streamlit.app/" target="_blank" rel="noopener noreferrer" className="nav-bar__link">
-            <div className="home">AskFit</div>
+            <div className="home">Ask Fit</div>
           </a>
         </Tooltip>
       </div>
@@ -80,14 +80,14 @@ const NavBar = ({ query }) => {
       </div>
       <div className="nav-bar__icon-group">
         <Tooltip title="CollabCart" arrow>
-          <div className="nav-bar__icon nav-bar__icon--gray">
+          <div className="nav-bar__icon ">
             <Link to="/CollabCart">
               <ShoppingBagIcon />
             </Link>
           </div>
         </Tooltip>
         <Tooltip title="Profile" arrow>
-          <div className="nav-bar__icon nav-bar__icon--gray">
+          <div className="nav-bar__icon ">
             <Link to="/profile">
               <AccountCircleIcon />
             </Link>

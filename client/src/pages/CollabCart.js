@@ -84,9 +84,6 @@ const CollabCart = () => {
         )}
         </div>
           }
-
-          <p style={{marginTop: '30vh'}}>Note: Open in another tab with another account and enter this collabcart-id on that account to test the CollabCart Feature. Add some looks to this cart and you will be able to see them on the another cart as well! Click on the 'w' button on the looks on the home page to add them. </p>
-       
         </div>
     </div>
   )

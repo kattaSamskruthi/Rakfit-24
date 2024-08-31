@@ -20,7 +20,7 @@ const SaveButton = ({ userId, photoUrl, isSaved }) => {
   };
 
   const buttonStyle = {
-    backgroundColor: isSaved ? '#000' : '#FF8DA7',
+    backgroundColor: isSaved ? '#000' : '#e76a6a',
     color: 'white',
   };
 

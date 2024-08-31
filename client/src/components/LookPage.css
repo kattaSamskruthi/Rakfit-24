@@ -256,3 +256,27 @@
 .comment__btn:hover {
   cursor: pointer;
 }
+
+.addtocart{
+  height: 50px;
+  width: 100px;
+  font-weight: 700;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  align-items: center;
+  background-color:#e76a6a ;
+}
+
+.buy{
+  display: flex;
+  flex-direction: row;
+}
+
+.price{
+  margin-right: 200px;
+}

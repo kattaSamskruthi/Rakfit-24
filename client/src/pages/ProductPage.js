@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import NavBar from '../components/NavBar.js';
-import ProductGrid from '../components/ProductGrid.js';
+import LookGrid from '../components/LookGrid.js';
 import { getProduct, getProductById } from "../actions/product.js";
 import "../components/LookPage.css";
 
@@ -17,6 +17,10 @@ const ProductPage = () => {
     const toggleComments = () => {
         setCommentsExpanded(!commentsExpanded);
     };
+
+    const post = useSelector((state) => state.look.selectedPost);
+    const { feed, saved, posts } = useSelector((state) => state.look);
+
 
     const { productId } = useParams();
     const dispatch = useDispatch();
@@ -96,9 +100,9 @@ const ProductPage = () => {
                             ))}
                         </div>
 
-                        <div>
-                            <div>{item.productPrice}</div> 
-                            <button>Add to Cart</button>
+                        <div className='buy'>
+                            <h3 className="price caption" >{item.productPrice}</h3> 
+                            <button className='addtocart'>Add to Cart</button>
                         </div>
 
                         <div className='comment_h'>
@@ -138,7 +142,7 @@ const ProductPage = () => {
                     </div>
                 </div>
                 <div className='grid__warpper'>
-                    <ProductGrid product={product} userId={userId} photoUrls={shop}  breakpoints={breakpoints} />
+                    <LookGrid posts={posts} userId={userId} photoUrls={feed} savedLooks={saved} breakpoints={breakpoints} />
                 </div>
             </div>
         </div>

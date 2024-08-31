@@ -10,5 +10,5 @@ export const RequireAuth = ({ children }) => {
 
 export const NotRequireAuth = ({ children }) => {
   const isAuthenticated = useSelector((state) => state.session.isAuthenticated);
-  return isAuthenticated ? <Navigate to="/Stores" /> : children;
+  return isAuthenticated ? <Navigate to="/" /> : children;
 };

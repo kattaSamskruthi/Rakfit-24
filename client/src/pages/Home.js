@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <div>
       <NavBar />
-      <p style={{ textAlign: 'left', marginLeft: '40px'}}>Note: Click on the '+' Button to save looks. View them in your Profile!</p>
+      
       <LookGrid posts={posts} userId={userId} photoUrls={feed} savedLooks={saved} breakpoints={breakpoints} />
     </div>
   );
