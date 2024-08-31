@@ -1,0 +1,23 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+
+.grp{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.collaborator{
+    background-color: rgb(122, 121, 121);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.id{
+    margin-right: 30px;
+}

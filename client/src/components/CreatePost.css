@@ -1,0 +1,179 @@
+.create-post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.upload-picture {
+  width: 680px;
+  height: 544px;
+  background-color: #FFDBDB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 8px;
+  position: relative;
+}
+
+.create-post h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.create-post .form-group {
+  margin-bottom: 15px;
+}
+
+.create-post .upload-container {
+  width: 680px;
+  height: 544px;
+  background-color: #FFDBDB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #ccc;
+  position: relative;
+  cursor: pointer;
+  margin: 0 auto 15px auto;
+}
+
+.create-post .upload-container .upload-input {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.create-post .upload-container .upload-content {
+  text-align: center;
+}
+
+.create-post .upload-container .upload-content img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.create-post .upload-container .upload-content p {
+  font-size: 18px;
+  color: #333;
+}
+
+.create-post .form-group input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #FFDBDB;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+
+}
+
+.create-post .trend-tag {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.create-post .add-trend-tag,
+.create-post .add-key {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #FFDBDB;
+  font-size: 16px;
+  color: #333;
+}
+
+.create-post .add-key {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-post .submit-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background-color: #0b0b0b;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.create-post .submit-button:hover {
+  background-color: #f7a4c6;
+}
+
+.last-two {
+  display: flex;
+  gap: 20px;
+}
+
+.create-post .add-trend-tag {
+  font-weight: bold;
+}
+
+.create-post .add-key {
+  font-weight: bold;
+}
+
+.form-group {
+  width: 800px;
+  font-weight: 600;
+  
+}
+
+.tags {
+  padding: 10px;
+  max-width: fit-content;
+}
+
+.tag-item {
+  position: relative;
+  display: inline-block;
+  background-color: #FFDADB;
+  border-radius: 12px;
+  margin: 5px;
+}
+
+.tag-item input {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.remove-tag-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  color: rgb(6, 6, 6);
+  font-size: 1.2em;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.add-tag-button{
+  border: none;
+  border-radius: 3px;
+  font-size: larger;
+  font-weight: 900;
+  height: 30px;
+  margin-top: 5px;
+  color: #fff;
+  background-color: #0b0b0b;
+  
+}

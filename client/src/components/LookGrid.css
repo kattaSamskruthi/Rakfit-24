@@ -1,0 +1,25 @@
+
+.look-grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  margin-top: 40px;
+  max-width: 100%;
+}
+
+.masonry-grid {
+  display: flex;
+  margin: 10px; 
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.masonry-grid_column {
+  padding: 0px; 
+  background-clip: padding-box;
+}
+
+.masonry-grid_column > div {
+  margin-bottom: 10px; 
+}

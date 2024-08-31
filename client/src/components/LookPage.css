@@ -1,0 +1,258 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+}
+
+.Look_post_wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 340px;
+  width: 340px;
+  text-align: start;
+  margin: 50px 10px 10px 10px;
+}
+
+.Look_wrapper {
+  display: flex;
+}
+
+.Look_container {
+  margin: 10px;
+  position: relative;
+}
+
+.Look_container div {
+  display: block;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.Look_container:hover img {
+  filter: brightness(70%);
+}
+
+.Look_container button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.Look_container button:hover {
+  opacity: 1;
+}
+
+.img {
+  position: relative;
+  max-width: 350px;
+  width: 350px;
+  height: auto;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.save-btn {
+  font-weight: 700;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 36px;
+  border-radius: 50%;
+  height: 56px;
+  width: 56px;
+  background-color: #ff8da7;
+}
+
+.user_info {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+}
+
+.vatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #cac7c7;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  color: white;
+  font-weight: 900;
+  color: black;
+  background-color: var(--lightgray);
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  line-height: 1;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.username {
+  font-weight: bold;
+  margin-right: 10px;
+  margin-bottom: 7px;
+}
+
+.caption {
+  margin: 10px 15px;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+}
+
+.comment {
+  display: flex;
+  flex-direction: row;
+  width: 310px;
+  margin-left: 10px;
+}
+
+.tags_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 10px 5px;
+}
+
+.tag {
+  margin: 5px;
+  padding: 5px 15px;
+  border-radius: 20px;
+  background-color: #cfcdcd;
+  font-weight: 500;
+}
+
+.comment_section {
+  margin: 10px 20px;
+}
+
+.toggle-comments-btn {
+  background: none;
+  border: none;
+  color: #0d0d0d;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.comments {
+  margin-bottom: 0px;
+}
+
+.comment {
+  display: flex;
+  align-items: center;
+  margin:10px 0px 20px 0px;
+}
+
+.comment_h {
+  display: flex;
+  align-items: center;
+  margin:0px 0px 20px 15px;
+}
+
+.comment_user_info {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.comment_user_pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #cfcdcd;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.comment_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment_user {
+  font-weight: bold;
+}
+
+.comment_content {
+  font-size: 14px;
+  color: #555;
+  text-align: start;
+  margin: 0px 0px 0px;
+}
+
+.comment_input {
+  width: 100%;
+  display: flex;
+  padding: 1px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color: #f9f9f9;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ct_input {
+  background-color: #f9f9f9;
+  border: none;
+  flex-grow: 1;
+  padding: 10px;
+  margin-left: 40px;
+}
+
+.ct_input:focus {
+  outline: none;
+  border: none;
+}
+
+.comment__btn {
+  padding: 8px 9px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-right: 0px;
+}
+
+.comment__btn:hover {
+  cursor: pointer;
+}

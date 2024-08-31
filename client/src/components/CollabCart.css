@@ -1,0 +1,48 @@
+.join__btn{
+    padding: 10px 15px;
+    margin: 15px;
+    width: 200px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    background-color: #FF8DA7;
+    color: rgb(252, 252, 252);
+    font-size: medium;
+    border-width: 1px;
+    border-color: #FF8DA7;
+    border: solid;
+    border-width: 1px;
+    border-color: #ff2c5d;
+}
+
+.id__input{
+    padding: 10px 15px;
+    margin: 15px ;
+    width: 200px;
+    margin-top: 40px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #FF8DA7;
+    
+    
+}
+
+.create__btn{
+    padding: 10px 15px;
+    margin: 15px;
+    width: 200px;
+    margin-top: 70px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: rgb(252, 252, 252);
+    background-color: #FF8DA7;
+    border: solid;
+    border-width: 1px;
+    border-color: #ff2c5d;
+}
+
+.text{
+    margin-top: 20px;
+}
